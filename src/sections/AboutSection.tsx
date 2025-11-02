@@ -8,7 +8,7 @@ import HeaderScroller from "@/lib/widgets/HeaderScroller";
 export default function AboutSection() {
 
     const paragraph1 = [
-        `I am a B.Tech Mechanical Engineering graduate from Sri Manakula Vinayagar Engineering College (2020-2024) with a CGPA of 8.07. Currently working as a Graduate Apprentice at BRIGHT BROTHERS Ltd, Thirubhuvanai, Puducherry, where I bring 15 months of professional experience in quality control and manufacturing excellence.`,
+        `I am a B.Tech Mechanical Engineering graduate from Sri Manakula Vinayagar Engineering College (2020-2024) with a CGPA of 8.07. I have worked as a Graduate Apprentice at BRIGHT BROTHERS Ltd, Thirubhuvanai, Puducherry, where I brought 15 months of professional experience in quality control and manufacturing excellence.`,
         `My expertise lies in managing QC activities of production line controlling, PPM calculation, defects identification, and implementing continuous process improvements to achieve zero defects. I am proficient in using 7QC tools and have comprehensive knowledge of quality core tools including APQP, PPAP, FMEA, MSA, SPC, and 8D problem solving methodologies.`,
         `I am passionate about implementing Kaizen improvements and error-proofing techniques (POKA-YOKE) in manufacturing processes. With certifications in Python, C Programming, Azure Fundamentals, and specialized training in Quality Control and Manufacturing, I am committed to driving operational excellence and ensuring the highest quality standards in production environments.`,
     ];
