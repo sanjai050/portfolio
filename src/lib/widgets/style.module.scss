@@ -1,0 +1,131 @@
+.button{
+    position: fixed;
+    right: 0px;
+    margin: 20px;
+    z-index: 2;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #4c89f9;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 12;
+}
+
+.burger{
+    width: 100%;
+    &::after, &::before{
+        content: "";
+        display: block;
+        height: 1px;
+        width: 40%;
+        margin: auto;
+        background-color: white;
+        position: relative;
+        transition: transform 0.3s;
+    }
+
+    &::after{
+        top: -5px;
+    }
+
+    &::before{
+        top: 5px;
+    }
+}
+
+.burgerActive{
+
+    &::after{
+        transform: rotate(45deg);
+        top: -1px;
+    }
+
+    &::before{
+        transform: rotate(-45deg);
+        top: 0px;
+    }
+    
+}
+
+
+
+// nav
+
+.menu{
+    height: 100vh;
+    background-color: #262829;
+    position: fixed;
+    right: 0;
+    top: 0;
+    color: white;
+    z-index: 11;
+
+    box-shadow: -1px 0px 20px 20px rgba(0, 0, 0, 0.2);
+
+
+    .body2{
+        box-sizing: border-box;
+        height: 100%;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .nav{
+            display: flex;
+            flex-direction: column;
+            font-size: 40px;
+            gap: 12px;
+            margin: auto;
+
+            .header{
+                color: rgb(153, 153, 153);
+                border-bottom: 1px solid rgb(153, 153, 153);
+                text-transform: uppercase;
+                font-size: 11px;
+            }
+
+            a{
+                text-decoration: none;
+                color: white;
+                font-weight: 300;
+            }
+            
+        }
+    }
+}
+
+//  footer
+
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 12px;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+//   Curve
+
+
+.svgCurve{
+    position: absolute;
+    top: 0;
+    left: -99px;
+    width: 100px;
+    height: 100%;
+    fill: #262829;
+    stroke: none;
+}
+
+
+@media only screen and (max-width: 545px) {
+    .menu {
+        width: 100%;
+    }
+}

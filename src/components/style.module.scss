@@ -1,0 +1,73 @@
+.introduction{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 99;
+    background-color: #141516;
+    svg{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: calc(100% + 300px);
+        path{
+            fill: #141516;
+        }
+    }
+    p{
+        display: flex;
+        color: white;
+        font-size: 42px;
+        align-items: center;
+        position: absolute;
+        z-index: 1;
+        span{
+            display: block;
+            width: 10px;
+            height: 10px;
+            background-color: white;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+    }
+}
+
+.button {
+    top: 80%;
+    left: calc(100% - 200px);
+    width: 180px;
+    height: 180px;
+    background-color: #1c1d20;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    p {
+      margin: 0px;
+      font-size: 16px;
+      font-weight: 300;
+      position: relative;
+      z-index: 1;
+    }
+  }
+  
+  
+  .circleContainer {
+    position: relative;
+    margin-top: 100px;
+    .circle {
+      height: 2000%;
+      width: 100%;
+      border-radius: 0 0 50% 50%;
+      background-color: #202020;
+      z-index: 2;
+      position: absolute;
+      box-shadow: 0px 29px 10px 20px #1010102c;
+    }
+  }
+  
